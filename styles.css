@@ -134,7 +134,7 @@ section:not(.first) {
 }
 
 #slide6 .images {
-  background: url("./images/interior.jpg");
+  background: url("./Images/interior.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -497,7 +497,7 @@ section:not(.first) {
 
   .content {
     margin: 2em;
-    margin-top: 6em;
+    margin-top: 5em;
     overflow: auto;
   }
 

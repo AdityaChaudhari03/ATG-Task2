@@ -11,7 +11,7 @@ let colors = [
   },
   {
     backgroundColor: "#0f113b",
-    head: "<h4>Powered by advanced</h4><img src='./images/nasa-mobile-app.png' style='height:60px;' alt='nasa' /><p style='text-align: right'>algorithms</p>",
+    head: "<h4>Powered by advanced</h4><img src='./Images/nasa-mobile-app.png' style='height:60px;' alt='nasa' /><p style='text-align: right'>algorithms</p>",
   },
   {
     backgroundColor: "#17263c",
@@ -310,7 +310,8 @@ $(".owl-carousel").on("changed.owl.carousel", function (event) {
       event.page.index
     ].style.backgroundColor = colors[event.page.index].backgroundColor;
   } catch {}
-});''
+});
+("");
 
 if (window.innerWidth < 600) {
   window.scrollTo(0, 0);
